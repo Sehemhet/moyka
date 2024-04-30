@@ -95,14 +95,12 @@ a:active {
 .c3 {color:var(--c3);}
 .c4 {color:var(--c4);}
 .c5 {color:var(--c5);}
-.c6 {color:var(--c6);}
 
 .b1 {background:var(--c1);}
 .b2 {background:var(--c2);}
 .b3 {background:var(--c3);}
 .b4 {background:var(--c4);}
 .b5 {background:var(--c5);}
-.b6 {background:var(--c6);}
 
 
 button, select {
@@ -125,14 +123,7 @@ button, select {
     font-size:16px;
 }
 
-body {
-    margin:0 auto;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    min-height:100vh;
-    position:relative;
-}
+
 
 
 .f {display:-webkit-box;display:-ms-flexbox;display:flex;}
@@ -168,11 +159,11 @@ body {
 .pad4l {padding-left:4px;}
 .pad4r {padding-right:4px;}
 
-.pad4 {padding:4px;}
-.pad4t {padding-top:4px;}
-.pad4b {padding-bottom:4px;}
-.pad4l {padding-left:4px;}
-.pad4r {padding-right:4px;}
+.pad8 {padding:8px;}
+.pad8t {padding-top:8px;}
+.pad8b {padding-bottom:8px;}
+.pad8l {padding-left:8px;}
+.pad8r {padding-right:8px;}
 
 .pad16 {padding:16px;}
 .pad16t {padding-top:16px;}
